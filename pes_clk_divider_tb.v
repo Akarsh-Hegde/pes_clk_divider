@@ -5,7 +5,7 @@ module pes_clk_divider_tb;
  wire clock_out;
  // Instantiate the Unit Under Test (UUT)
  // Test the clock divider in Verilog
- Clock_divider uut (
+ pes_clk_divider uut (
   .clock_in(clock_in), 
   .clock_out(clock_out)
  );
